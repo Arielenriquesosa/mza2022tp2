@@ -1,2 +1,2 @@
-# tpn-2-potrerodigital-mdz-2022
+mdz2022-tp2
 Trabajo Práctico N° 2.

@@ -1,2 +1,2 @@
-mdz2022-tp2
+mza2022tp2
 Trabajo Práctico N° 2.

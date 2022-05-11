@@ -33,27 +33,56 @@ background-position:50% 50%;
     box-shadow: 0 0 0 25px  rgba(0, 0, 0, 0);
   }
 }
-h1 {
+
+header h1 {
   font-size: 48px;
   color: #fa0215;
   text-align: center;
   text-decoration: underline;
   font-family: sans-serif;
-  padding: 30px;
+  padding: 20px;
+  margin-top: 15px;
+}
+nav {
+  padding: 10px;
+  margin-top: 0;
+  display: flex;
+  justify-content: flex-start;
 }
 .links {
-  display: inline-flex;
+  display: flex;
   position: fixed;
   z-index: 999;
   transition: ease 0.3s;
 }
-.links img {
+.olla1 {
   width: 50px;
-  height: auto;
+  height: 50px;
+}
+.olla2 {
+  width: 50px;
+  height: 50px;
+}
+.olla3 {
+  width: 50px;
+  height: 50px;
+}
+.olla4 {
+  width: 50px;
+  height: 50px;
 }
 .links a:hover {
   transform: scale(1.1);
   transition: 0,3s;
+}
+
+main {
+  margin: 10%;
+  margin-top: 0;
+}
+section {
+  margin: 10%;
+  margin-top: 0;
 }
 .subtítulos h2{
 text-align: center;
@@ -98,13 +127,29 @@ p {
   font-size: 26px;
   text-align: center;
 }
+.mapayweb {
+  display: flex;
+  justify-content: space-around;
+}
 .mapa {
+  width: 300px;
+  height: 500px;
+  border-radius: 10%;
+}
+.webtucumán {
+  width: 300px;
+  height: 500px;
+  border-radius: 10%;
+}
+.subt {
   display: flex;
   justify-content: center;
 }
-.webtucumán {
-  display: flex;
-  justify-content: center;
+.subt h1 {
+  color: #fa0215;
+  text-align: center;
+  font-size: 36px;
+  text-decoration: underline;
 }
 .listas {
   display: flex;
@@ -120,19 +165,34 @@ p {
   font-size: 20px;
   color: greenyellow
 }
+span {
+  width: 60%;
+  float: left;
+}
 .video-youtube {
   display: flex;
   justify-content: center;
-  padding: 40px;
+  padding: 10px;
 }
 .video-youtube iframe {
   width: 700px;
   height: 400px;
 }
+aside {
+  width: 40%;
+  float: left;
+}
 .web-add {
   display: flex;
   justify-content: center;
-  padding: 40px;
+  padding: 30px;
+}
+.dolarhoy {
+  width: 400px;
+  height: 600px;
+}
+footer{
+  clear: both;
 }
 h5 {
   font-size: 20px;
@@ -141,11 +201,28 @@ h5 {
 }
 .redes {
   display: flex;
-  justify-content: center;
-  padding: 30px;
-  justify-content: space-between;
+  justify-content: space-around;
+  padding: 20px;
 }
 .redes a:hover {
   transform: scale(1.1);
   transition: 0,3s;
+}
+.face {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+.insta {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+}
+.twit {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: space-around;
 }
